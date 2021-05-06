@@ -8,13 +8,7 @@ const questions = [
     {
         name: 'Description',
         type: 'input',
-        message: 'Description of your project'
-    },
-    {
-        name: 'tableOfContents',
-        type: 
-        message:
-
+        message: 'Description of your project?'
     },
     {
         name: 'Installation',
@@ -40,7 +34,14 @@ const questions = [
         message: 'Test instructions'
 
     },
+    {
+        name: 'Licensing',
+        type: 'list',
+        choices: ['MIT', 'Apache license 2.0', 'Mozilla Public License 2.0']
 
+    },
+];
 
-]
-
+module.exports = {
+    questions,
+};

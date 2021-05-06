@@ -1,14 +1,19 @@
-const { fstat } = require('fs');
+const { log } = require('console');
+const fs = require('fs');
 const { prompt } = require('inquirer');
-const { questions } = require('./assets/questions');
-const { template } = require('./assets/utils')
+const questions  = require('./assets/questions');
+const template = require('./assets/template')
 
-prompt(questions).then((answers) => {
+const f = function()
+{
+    console.log(questions)
+    prompt(questions).then((answers) => {
     console.log(answers);
 
-    const name =createFileName(answers.projectName)
-
-    fs.writeFile(`./${name}.html`, template(answers), `utf8`, () => {
-        console.log(`Successfully created ${name}.html file.`)
+    fs.writeFile(`./readme.md`, template(answers), `utf8`, () => {
+        console.log(`Successfully created readme file.`)
     })
 })
+
+}
+f();
