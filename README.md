@@ -7,13 +7,13 @@ f
 f
 
 ## Usage
-f
+
 
 ## Contributing
-f
+
 
 ## Tests
 npm test
 
-## Licensing
-[![License: MIT]((https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+## License
+[![License: undefined]((https://img.shields.io/badge/License-undefined-green.svg)](https://opensource.org/licenses/undefined)

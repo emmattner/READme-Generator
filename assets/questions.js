@@ -3,7 +3,6 @@ const questions = [
         name: 'gitHub',
         type: 'input',
         message: 'What is your GitHub username?'
-
     },
     {
         name: 'email',
@@ -20,30 +19,28 @@ const questions = [
     {
         name: 'description',
         type: 'input',
-        message: 'Description of your project?'
+        message: 'Please write a short description of your project'
     },
     {
         name: 'installation',
         type: 'input',
-        message: 'Provide installation instructions'
-
+        message: 'What command should be run to install dependencies?',
+        default: 'npm i'
     },
     {
         name: 'usage',
         type: 'input',
-        message: 'Input usage infomration'
-
+        message: 'What does the user need to know about using the repo?'
     },
     {
         name: 'contributing',
         type: 'input',
-        message: 'Contribution quidelines'
-
+        message: 'What does the user need to know about contributing to the repo'
     },
     {
         name: 'tests',
         type: 'input',
-        message: 'Test instructions',
+        message: 'What command should be run to run tests?',
         default: 'npm test'
     },
     {
