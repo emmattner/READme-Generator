@@ -1,19 +1,26 @@
 const template = function(answer)
 {
-    const templateReadme = 
-    `#${answer.title}
+const templateReadme = 
+`# ${answer.projectName}
 
-    ##${answer.description}
+## Description
+${answer.description}
     
-    ##${answer.installationProcess}
-    
-    ##${answer.usage}
-    
-    ##${answer.contributing}
-    
-    ##${answer.tests}
-    
-    ##${answer.licensing}`;
+## Installation
+${answer.installation}
+
+## Usage
+${answer.usage}
+
+## Contributing
+${answer.contributing}
+
+## Tests
+${answer.tests}
+
+## License
+[![License: ${answer.licensing}]((https://img.shields.io/badge/License-${answer.licensing}-green.svg)](https://opensource.org/licenses/${answer.licensing})`;
+
 
     return templateReadme;
 }
