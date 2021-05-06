@@ -1,6 +1,6 @@
 const questions = [
     {
-        name: 'gitHub',
+        name: 'github',
         type: 'input',
         message: 'What is your GitHub username?'
     },
