@@ -1,30 +1,12 @@
-# README Generator
+# Good README Generator
 
 ## Description
-Creating a README Generator
+This week I created a README Generator by using the integrated terminal using node.js and installing inquirer. Inquirer is an npm package that can be used to gather and collect information from users by them inputting their data into the terminal command line. By gathering all input from users it will thyen create a README file for the user.
 
-## Table of Contents
-1. [Installation](#Installation)
-2. [Usage](#Usage)
-3. [Contributing](#Contributing)
-4. [Tests](#Tests)
-5. [License](#License)
+## What I have learned
+This week I have learnt how to use my integrated terminal, node.js and npm. Using npm you can install all different types of packages. This week we used the inquirer package that will help aid in gathering information from users from the terminal command line and generating a file. 
 
-## Installation
-npm i
+## ScreenCastify Video
+[![Video](./README-Generator.mp4)]
 
-## Usage
-F
 
-## Contributing
-F
-
-## Tests
-npm test
-
-## License
-[![License: undefined]((https://img.shields.io/badge/License-undefined-green.svg)](https://opensource.org/licenses/undefined)
-
-## Questions
-​
-If you have any questions about the repo, open an issue or contact me directly at emattner1997@gmail.com. You can find more of my work at [Emmattner](https://github.com/Emmattner/).
